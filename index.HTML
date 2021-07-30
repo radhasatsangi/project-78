@@ -1,0 +1,51 @@
+<html>
+  <head>
+  <title>
+MY FAMILY BOOK
+  </title>
+  </head>
+  <body>
+    <center>
+    <h1>
+      MY FAMILY BOOK
+    </h1>
+    <img src="https://i.pinimg.com/736x/96/1a/b7/961ab7651c2b93d8989a09a1d58be25e.jpg" id="family img">
+    <button onlick=next() id="next img">NEXT</button>
+  </center>
+    <script>
+      var img=[
+      "me.jpg",
+      "brother.jpg",
+      "dad.jpg",
+      "mom.png",
+      "grandma.jpg"
+      ];
+      var names=[
+      "Radha satsangi(Me)",
+      "Agam satsangi(Brother)",
+      "Prashant nilium(Dad)",
+      "Rupam soni(Mom)",
+      "Shashi bala sinha (Grandma)"
+      ];
+      var 
+      var i="0"
+      function next(){
+        i++
+        var numbers_of_family_members=5
+        if(i> numbers_of_family_members)
+
+      {
+        var nextimages= img[i];
+        var  nextname= names[i];
+        document.getElementById("family_member_images").src= nextimages;
+        document.getElementById("family_member_names").innetrHTML= nextname;
+        
+      }
+        
+      }
+
+    </script>
+    
+  </body>
+
+</html>
